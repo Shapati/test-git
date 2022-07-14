@@ -1,32 +1,58 @@
+.testimonial-container {
+  padding-top: 50px;
+}
 .testimonial {
+  position: relative;
   width: 1250px;
   margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
 }
-.testi-box-container {
-  width: 1000px;
-  height: 1000px;
+.testi-heading {
+  text-align: center;
+}
+.testi-heading span {
+  color: var(--gen-color);
+  font-weight: bolder;
 }
 .testi-box {
   width: 700px;
-  height: 350px;
+  height: 400px;
   background-color: #f8f8f8;
   border-radius: 7px;
   position: relative;
-  margin-bottom: 20px;
+
   padding: 0px 50px;
 }
 .testi-box p {
   position: absolute;
-  top: 100px;
+  top: 130px;
   font-size: 14px;
   font-weight: bolder;
 }
 .testi-box h4 {
   font-weight: 100;
   position: absolute;
-  top: 220px;
+  top: 270px;
 }
 .testi-box h5 {
   position: absolute;
-  top: 270px;
+  top: 310px;
+}
+.testimonial button {
+  height: 20px;
+}
+.next,
+.previous {
+  transform: translate(0%, 50%);
+}
+.next img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.previous img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
