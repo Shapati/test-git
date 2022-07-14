@@ -74,7 +74,9 @@ export const Testimonials = () => {
         <div className="testi-box-container">
           {first && (
             <div className="testi-box" data-aos="flip-up">
-              <div className="test-img"></div>
+              <div className="testi-img">
+                <img src="./assets/person1.png" alt="" />
+              </div>
               <div className="testi-body">
                 <p>
                   I have used quite a number of platforms to acheive my aim but
@@ -94,7 +96,9 @@ export const Testimonials = () => {
           )}
           {second && (
             <div className="testi-box" data-aos="flip-up">
-              <div className="test-img"></div>
+              <div className="testi-img">
+                <img src="./assets/person2.png" alt="" />
+              </div>
               <div className="testi-body">
                 <p>
                   I joined Lektore and my public speaking and overall knowledge
@@ -111,7 +115,9 @@ export const Testimonials = () => {
           )}
           {third && (
             <div className="testi-box" data-aos="flip-up">
-              <div className="test-img"></div>
+              <div className="testi-img">
+                <img src="./assets/person3.png" alt="" />
+              </div>
               <div className="testi-body">
                 <p>
                   I have used quite a number of platforms to acheive my aim but

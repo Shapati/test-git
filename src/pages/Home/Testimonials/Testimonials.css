@@ -10,6 +10,7 @@
 }
 .testi-heading {
   text-align: center;
+  margin-bottom: 150px;
 }
 .testi-heading span {
   color: var(--gen-color);
@@ -21,8 +22,12 @@
   background-color: #f8f8f8;
   border-radius: 7px;
   position: relative;
-
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   padding: 0px 50px;
+}
+.testi-img img {
+  width: 120px;
+  transform: translate(-80px, -50px);
 }
 .testi-box p {
   position: absolute;
