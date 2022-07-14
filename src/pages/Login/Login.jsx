@@ -3,14 +3,14 @@ import { useState } from "react";
 import "./Login.css";
 export const Login = () => {
   const [pass, setPass] = useState(true);
-  const [passType, setPassType] = useState("");
+  const [passType, setPassType] = useState("password");
 
   const togglePass = () => {
     setPass(!pass);
-    if (pass) {
+    if (!pass) {
       setPassType("password");
     }
-    if (!pass) {
+    if (pass) {
       setPassType("text");
     }
   };
