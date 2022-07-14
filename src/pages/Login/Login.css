@@ -1,0 +1,121 @@
+.login-container{
+    /* background-color: var(--gen-color); */
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url('../../assets/loginback.jpg') no-repeat center center/cover;
+    padding: 50px 0px 50px 0px;
+    height: 100vh;
+
+    
+}
+.container-back{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;   
+    top: 0;
+}
+.form-group{
+    margin-left: 20px;
+}
+.form-group img{
+    cursor: pointer;
+    transform: translate(-30px,5px);
+    width: 20px;
+    position: relative;
+    z-index: 2000;
+}
+.login{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 650px;
+    margin: 50px auto;
+    background: #FCFCFC;
+    border-radius: 7px;
+}
+.lektoreimg img{
+    width: 17px;
+    height: 15px;
+    position: absolute;
+    left: 25px ;
+    top: 55px;
+    margin-top: -30px;
+}
+.login p:nth-child(2){
+    
+    margin-bottom: 30px;
+
+}
+.login span{
+    font-weight: bolder;
+}
+.login a{
+    text-decoration: none;
+    color: var(--gen-color);
+    font-weight: bolder;
+}
+.login a:nth-child(6){
+    transform: translate(80px , 10px);
+  
+}
+.login label{
+    display: block;
+    margin-top: 20px;
+    color: #2F2E2E;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+.login input{
+    height: 40px;
+    width: 350px;
+    background-color: #F7F7F7;
+    border: 0.4px solid #c7c5c5 ;
+    outline: none;
+    border-radius: 2px;
+    padding: 0px 10px;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 15px;
+}
+
+.login button{
+    border: none;
+    height: 40px;
+    width: 350px;
+    background-color: var(--gen-color);   
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 80px 0px 40px 0px;
+    cursor: pointer;
+}
+.lines{
+    display: flex;
+   
+}
+.lines p{
+    padding: 0px 5px;
+    color: #838282;
+}
+.line{
+    transform: translateY(12px);
+    background-color: #838282;
+    width: 100px;
+    height: 2px;
+}
+.images{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.images img{
+    width: 30px;
+    cursor: pointer;
+}
+.images img:nth-child(1){
+    width: 25px;
+}
