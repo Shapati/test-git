@@ -26,6 +26,7 @@ export const Navbar = () => {
     setSecondDropdown(false);
     setThirdDropdown(false);
   };
+
   // if(firstDropdown){
 
   //     setTimeout(()=>{
