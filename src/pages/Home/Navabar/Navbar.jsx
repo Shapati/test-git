@@ -49,7 +49,9 @@ export const Navbar = () => {
       <div className="Navbar">
         <div className="nav-left">
           <img src="./assets/Frame.jpg" alt="" />{" "}
-          <NavLink to="/">LEKTOR</NavLink>
+          <NavLink to="/" onClick={() => resetDrop()}>
+            LEKTOR
+          </NavLink>
         </div>
         <div className="nav-right">
           <div className="tabs">
