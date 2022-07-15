@@ -14,14 +14,13 @@
 }
 
 .banner{
-    width: 100%;
-    height: 300px;
+    /* width: 100%; */
+    height: 400px;
     margin-bottom: 90px;
-   }
+    }
 
-.img{
-    width: 100%;
-    height: 322px;
+.img-banner{
+   
     object-fit: cover;
 }
 
@@ -194,7 +193,7 @@ span{
     cursor: pointer;
 }
 
-button{
+.register{
     background: rgb(46,125,218);
     background: linear-gradient(185deg, rgba(46,125,218,1) 0%, rgba(46,125,218,1) 100%);
     border-style: none;
