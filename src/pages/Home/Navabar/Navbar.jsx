@@ -104,7 +104,7 @@ export const Navbar = () => {
             <NavLink to="/login" onClick={() => resetDrop()}>
               Tutor Login
             </NavLink>
-            <NavLink to="/" onClick={() => resetDrop()}>
+            <NavLink to="/signup" onClick={() => resetDrop()}>
               Sign Up
             </NavLink>
           </div>
