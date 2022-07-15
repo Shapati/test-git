@@ -47,7 +47,7 @@ function Signup() {
               placeholder="Email"
             />
           </div>
-          <div className="dropdown">
+          <div className="dropdwn">
             <div className="dropdown-country">
               <label for="cars"></label>
               <select name="country" id="country">
