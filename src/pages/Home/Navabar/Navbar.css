@@ -188,4 +188,7 @@
   .nav-right {
     width: 950px;
   }
+  .nav-right a {
+    font-size: 14px;
+  }
 }
