@@ -1,6 +1,7 @@
 .intro-container {
+  position: relative;
   background: #f8f8f8;
-  padding: 40px 0px 70px 0px;
+  padding: 40px 0px 90px 0px;
 }
 
 .IntroSection {
@@ -46,6 +47,7 @@
   height: 500px;
   background: url("../../../assets/im.jpg") no-repeat center center/cover;
 }
+
 @media screen and (max-width: 1600px) {
   .IntroSection {
     width: 1350px;
