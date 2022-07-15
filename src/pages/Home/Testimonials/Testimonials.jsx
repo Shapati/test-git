@@ -179,6 +179,32 @@ export const Testimonials = () => {
           )}
         </div>
       </div>
+      <div className="circle-container">
+        <div
+          className="circle"
+          style={{
+            backgroundColor: first ? "#4C8FDF" : "#f8f8f8",
+          }}
+        ></div>
+        <div
+          className="circle"
+          style={{
+            backgroundColor: second ? "#4C8FDF" : "#f8f8f8",
+          }}
+        ></div>
+        <div
+          className="circle"
+          style={{
+            backgroundColor: third ? "#4C8FDF" : "#f8f8f8",
+          }}
+        ></div>
+        <div
+          className="circle"
+          style={{
+            backgroundColor: fourth ? "#4C8FDF" : "#f8f8f8",
+          }}
+        ></div>
+      </div>
     </div>
   );
 };
