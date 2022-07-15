@@ -75,9 +75,10 @@ export const Testimonials = () => {
           {first && (
             <div className="testi-box" data-aos="flip-up">
               <div className="testi-img">
-                <img src="./assets/person1.png" alt="" />
+                <img src="./assets/person4.svg" alt="" />
               </div>
               <div className="testi-body">
+                <img src="./assets/upquote.svg" alt="" />
                 <p>
                   I have used quite a number of platforms to acheive my aim but
                   all no avail until a friend introduced me to lektore, with
@@ -85,6 +86,7 @@ export const Testimonials = () => {
                   overcome a long term barrier and i made good prgress in
                   English sentences and pronounciation
                 </p>
+                <img src="./assets/downquote.svg" alt="" />
               </div>
               <div className="testi-name">
                 <h4>Suzie Patricia </h4>
@@ -97,13 +99,15 @@ export const Testimonials = () => {
           {second && (
             <div className="testi-box" data-aos="flip-up">
               <div className="testi-img">
-                <img src="./assets/person2.png" alt="" />
+                <img src="./assets/person1.png" alt="" />
               </div>
               <div className="testi-body">
+                <img src="./assets/upquote.svg" alt="" />
                 <p>
                   I joined Lektore and my public speaking and overall knowledge
-                  in English improved
+                  in English improved, thanks to Lektore
                 </p>
+                <img src="./assets/downquote.svg" alt="" />
               </div>
               <div className="testi-name">
                 <h4> Micheal Sandler</h4>
@@ -116,16 +120,16 @@ export const Testimonials = () => {
           {third && (
             <div className="testi-box" data-aos="flip-up">
               <div className="testi-img">
-                <img src="./assets/person3.png" alt="" />
+                <img src="./assets/person2.png" alt="" />
               </div>
               <div className="testi-body">
+                <img src="./assets/upquote.svg" alt="" />
                 <p>
-                  I have used quite a number of platforms to acheive my aim but
-                  all no avail until a friend introduced me to lektore, with
-                  their array of very knowledgeable tutros, i was able to
-                  overcome a long term barrier and i made good prgress in
-                  English sentences and pronounciation
+                  i am currently learning French language with Lektore and the
+                  experience has been wonderful, the tutors are amazing and they
+                  make leranin a thrilling fun experience
                 </p>
+                <img src="./assets/downquote.svg" alt="" />
               </div>
               <div className="testi-name">
                 <h4> Johnson Adams </h4>
@@ -137,15 +141,18 @@ export const Testimonials = () => {
           )}
           {fourth && (
             <div className="testi-box " data-aos="flip-up">
-              <div className="test-img"></div>
+              <div className="testi-img">
+                <img src="./assets/person3.png" alt="" />
+              </div>
               <div className="testi-body">
+                <img src="./assets/upquote.svg" alt="" />
                 <p>
-                  I have used quite a number of platforms to acheive my aim but
-                  all no avail until a friend introduced me to lektore, with
-                  their array of very knowledgeable tutros, i was able to
-                  overcome a long term barrier and i made good prgress in
-                  English sentences and pronounciation
+                  My name is Cynthia, i have been having issues settling into a
+                  new country because of my phonetics, i registered with Lektore
+                  and i improved greatly, the tutors are amazing and i recommend
+                  them for eveyone
                 </p>
+                <img src="./assets/downquote.svg" alt="" />
               </div>
               <div className="testi-name">
                 <h4> Cynthia Bade </h4>
@@ -182,24 +189,28 @@ export const Testimonials = () => {
       <div className="circle-container">
         <div
           className="circle"
+          onClick={() => showFirst()}
           style={{
             backgroundColor: first ? "#4C8FDF" : "#f8f8f8",
           }}
         ></div>
         <div
           className="circle"
+          onClick={() => showSecond()}
           style={{
             backgroundColor: second ? "#4C8FDF" : "#f8f8f8",
           }}
         ></div>
         <div
           className="circle"
+          onClick={() => showThird()}
           style={{
             backgroundColor: third ? "#4C8FDF" : "#f8f8f8",
           }}
         ></div>
         <div
           className="circle"
+          onClick={() => showFourth()}
           style={{
             backgroundColor: fourth ? "#4C8FDF" : "#f8f8f8",
           }}

@@ -16,35 +16,50 @@
   color: var(--gen-color);
   font-weight: bolder;
 }
+
 .testi-box {
-  width: 700px;
+  width: 800px;
   height: 400px;
   background-color: #f8f8f8;
   border-radius: 7px;
   position: relative;
-  box-shadow: 20px 22px 0px 0px rgba(245, 245, 245, 0.75);
-  -webkit-box-shadow: 20px 22px 0px 0px rgba(245, 245, 245, 0.75);
-  -moz-box-shadow: 20px 22px 0px 0px rgba(245, 245, 245, 0.75);
-  padding: 0px 50px;
 }
 .testi-img img {
   width: 120px;
-  transform: translate(-80px, -50px);
+  transform: translate(-50px, -50px);
 }
 .testi-box p {
   position: absolute;
-  top: 130px;
+  top: 150px;
+  left: 30px;
   font-size: 14px;
   font-weight: bolder;
+  width: 700px;
 }
+
 .testi-box h4 {
   font-weight: 100;
   position: absolute;
   top: 270px;
+  left: 30px;
 }
 .testi-box h5 {
   position: absolute;
   top: 310px;
+  left: 30px;
+}
+.testi-body img {
+  width: 15px;
+}
+.testi-body img:nth-child(1) {
+  left: 30px;
+  top: 100px;
+  position: absolute;
+}
+.testi-body img:nth-child(3) {
+  position: absolute;
+  right: 30px;
+  bottom: 150px;
 }
 .testimonial button {
   height: 20px;
