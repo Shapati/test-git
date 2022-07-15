@@ -4,7 +4,7 @@ import { Fade } from "react-reveal";
 
 export const IntroSection = () => {
   return (
-    <div className="container">
+    <div className="intro-container">
       <div className="IntroSection">
         <div className="introSection-left">
           <Fade bottom delay={50}>
@@ -21,12 +21,11 @@ export const IntroSection = () => {
               anyone wanting to seek better as well as gives actors access to
               native speakers of languages they need to sound like. Creating a
               process that converts existing education and professions to
-              transferrable skills that makes them a credit to their host <br />{" "}
-              countries.{" "}
+              transferrable skills that makes them a credit to their host <br />
+              countries.
             </p>
           </Fade>
           <Fade bottom delay={800}>
-            {" "}
             <div className="introSectionLinks">
               <NavLink to="/">Check Courses</NavLink>
               <NavLink to="/">Learn More</NavLink>
