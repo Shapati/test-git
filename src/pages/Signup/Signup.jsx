@@ -9,7 +9,7 @@ function Signup() {
   return (
     <div className="container">
       <div className="banner">
-        <img className="img" src={banner} alt="banner" />
+        <img className="img-banner" src={banner} alt="banner" />
       </div>
       <div className="inner-container">
         <div className="img1">
