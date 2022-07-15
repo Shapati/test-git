@@ -84,6 +84,7 @@ function Signup() {
               placeholder="Password"
             />
           </div>
+          
           <div className="password" id="pass">
             <input
               className="form-control-password"
