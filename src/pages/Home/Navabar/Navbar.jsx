@@ -57,7 +57,7 @@ export const Navbar = () => {
           <div className="tabs">
             <div className="dropdown" id="dropdown1">
               <NavLink to="#" onClick={() => firstDrop()}>
-                Our Services
+                Our Services <img src="./assets/dropdown.svg" alt="" />
               </NavLink>
               {firstDropdown && (
                 <ul className="swing-in-top-fwd" ref={first}>
@@ -70,7 +70,7 @@ export const Navbar = () => {
             </div>
             <div className="dropdown" id="dropdown2">
               <NavLink to="#" onClick={() => secondDrop()}>
-                Who we Service
+                Who we Service  <img src="./assets/dropdown.svg" alt="" />
               </NavLink>
               {secondDropdown && (
                 <ul className="swing-in-top-fwd">
@@ -84,7 +84,7 @@ export const Navbar = () => {
             </div>
             <div className="dropdown" id="dropdown3">
               <NavLink to="#" onClick={() => thirdDrop()}>
-                pathways
+                pathways  <img src="./assets/dropdown.svg" alt="" />
               </NavLink>
               {thirdDropdown && (
                 <ul className="swing-in-top-fwd">

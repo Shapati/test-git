@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { Testimonial } from "../../../data/Testimonial";
+// import { Testimonial } from "../../../data/Testimonial";
 import "./Testimonials.css";
-import { Fade, Flip } from "react-reveal";
+// import { Fade, Flip } from "react-reveal";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export const Testimonials = () => {
-  const { testimonials } = Testimonial();
+  // const { testimonials } = Testimonial();
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -52,17 +52,17 @@ export const Testimonials = () => {
         <div className="previous">
           {first && (
             <div onClick={() => showFourth()}>
-              <img src="./assets/prev.png" alt="" />{" "}
+              <img src="./assets/prev.png" alt="" />
             </div>
           )}
           {second && (
             <div onClick={() => showFirst()}>
-              <img src="./assets/prev.png" alt="" />{" "}
+              <img src="./assets/prev.png" alt="" />
             </div>
           )}
           {third && (
             <div onClick={() => showSecond()}>
-              <img src="./assets/prev.png" alt="" />{" "}
+              <img src="./assets/prev.png" alt="" />
             </div>
           )}
           {fourth && (

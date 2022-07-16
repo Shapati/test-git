@@ -6,7 +6,7 @@
 
 .IntroSection {
   width: 1250px;
-  margin: 50px auto 0px auto;
+  margin: 50px auto 50px auto;
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-content: space-between;
@@ -23,6 +23,7 @@
   color: var(--gen-color);
 }
 .introSection-left p {
+  color: #242323;
   margin-bottom: 50px;
   width: 600px;
   line-height: 1.7rem;
@@ -89,6 +90,7 @@
     margin-bottom: 20px;
     line-height: 1.7rem;
   }
+
   .introSection-right {
     width: 480px;
     height: 480px;

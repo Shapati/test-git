@@ -172,6 +172,7 @@
   .nav-right {
     width: 1050px;
   }
+  
 }
 @media screen and (max-width: 1500px) {
   .Navbar {
@@ -180,6 +181,7 @@
   .nav-right {
     width: 1000px;
   }
+ 
 }
 @media screen and (max-width: 1400px) {
   .Navbar {
@@ -190,5 +192,11 @@
   }
   .nav-right a {
     font-size: 14px;
+  }
+  .tabs a{
+    font-size: 12px;
+  }
+  .nav-right img{
+    width: 12px;
   }
 }
