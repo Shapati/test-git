@@ -50,7 +50,7 @@ export const Navbar = () => {
         <div className="nav-left">
           <img src="./assets/Frame.jpg" alt="" />{" "}
           <NavLink to="/" onClick={() => resetDrop()}>
-            LEKTOR
+            LEKTORE
           </NavLink>
         </div>
         <div className="nav-right">

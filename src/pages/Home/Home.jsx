@@ -3,11 +3,12 @@ import { Decorator } from "./decorators/Decorator";
 import Footer from "./Footer/Footer";
 import { IntroSection } from "./IntroSection/IntroSection";
 import { Testimonials } from "./Testimonials/Testimonials";
-
+import ScrollToTop from "react-scroll-to-top";
 
 const Home = () => {
   return (
     <div>
+      <ScrollToTop top={500} color="white" style={{display: 'flex', flexDirection: 'column' , justifyContent:'center', alignItems:'center' , borderRadius:'50%',width:"60px", height:'60px' , backgroundColor:'#4C8FDF'}  }/>
       <IntroSection />
       <Decorator />
       <Testimonials />
