@@ -1,6 +1,6 @@
 .intro-container {
   position: relative;
-  background: #f8f8f8;
+  background: linear-gradient(0deg, rgba(234, 234, 234, 0.35), rgba(234, 234, 234, 0.35)), linear-gradient(0deg, #FFFFFF, #FFFFFF), #D9D9D9;
   padding: 40px 0px 90px 0px;
 }
 
@@ -17,13 +17,15 @@
 }
 .introSection-left h1 {
   font-size: 40px;
+  color: #242323;
   margin-bottom: 50px;
 }
 .introSection-left span {
   color: var(--gen-color);
 }
 .introSection-left p {
-  color: #242323;
+  font-weight: 500;
+  color: rgba(36, 35, 35, 0.7);
   margin-bottom: 50px;
   width: 600px;
   line-height: 1.7rem;
@@ -56,9 +58,10 @@
   }
   .introSection-left p {
     width: 600px;
-
+    color: rgba(36, 35, 35, 0.7);
     line-height: 1.8rem;
     margin-bottom: 30px;
+    font-weight: 500;
   }
   .introSection-right {
     width: 550px;

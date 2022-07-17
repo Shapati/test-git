@@ -31,7 +31,7 @@ export const Login = () => {
 
             <div className="form-group">
               <label>Username or Email</label>
-              <input type="text" />
+              <input type="text"  />
               <img src="./assets/username.svg" alt="" />
             </div>
             <div className="form-group">

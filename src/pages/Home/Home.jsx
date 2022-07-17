@@ -4,6 +4,7 @@ import Footer from "./Footer/Footer";
 import { IntroSection } from "./IntroSection/IntroSection";
 import { Testimonials } from "./Testimonials/Testimonials";
 import ScrollToTop from "react-scroll-to-top";
+import TestimonialCard from "./TestimonialCard/TestimonialCard";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <IntroSection />
       <Decorator />
       <Testimonials />
+      <TestimonialCard />
       <Footer />
     </div>
   );

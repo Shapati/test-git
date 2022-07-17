@@ -1,5 +1,5 @@
 .nav-container {
-  background: #f2f0f0;
+  background: rgba(242, 240, 240, 0.65);
 }
 .swing-in-top-fwd {
   -webkit-animation: swing-in-top-fwd 0.5s
@@ -109,7 +109,7 @@
 }
 .nav-right a {
   text-decoration: none;
-  color: black;
+  color:  rgba(36, 35, 35, 0.9);
 }
 .tabs {
   display: flex;
