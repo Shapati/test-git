@@ -9,9 +9,10 @@
 .container-back {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
-  width: 100vw;
+  width: 100%;
   height: 120vh;
   top: 0;
+  left: 0;
 }
 .form-group {
   margin-left: 20px;
