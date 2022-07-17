@@ -34,11 +34,11 @@
 .testi-box p {
   position: absolute;
   top: 150px;
-  left: 30px;
+  left: 60px;
   font-size: 14px;
   font-weight: 500;
-  width: 700px;
-  color: rgba(36, 35, 35, 0.85);
+  width: 650px;
+  color: rgba(36, 35, 35, 5);
   ;
   line-height: 24px;
 }
@@ -47,12 +47,12 @@
   font-weight: 100;
   position: absolute;
   top: 270px;
-  left: 30px;
+  left: 60px;
 }
 .testi-box h5 {
   position: absolute;
   top: 310px;
-  left: 30px;
+  left: 60px;
 }
 .testi-body img {
   width: 15px;
