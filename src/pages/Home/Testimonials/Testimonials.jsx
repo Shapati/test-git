@@ -73,7 +73,7 @@ export const Testimonials = () => {
         </div>
         <div className="testi-box-container">
           {first && (
-            <div className="testi-box" data-aos="flip-up">
+            <div className="testi-box" data-aos="flip-down">
               <div className="testi-img">
                 <img src="./assets/person4.svg" alt="" />
               </div>
@@ -97,7 +97,7 @@ export const Testimonials = () => {
             </div>
           )}
           {second && (
-            <div className="testi-box" data-aos="flip-up">
+            <div className="testi-box" data-aos="flip-down">
               <div className="testi-img">
                 <img src="./assets/person1.png" alt="" />
               </div>
@@ -118,7 +118,7 @@ export const Testimonials = () => {
             </div>
           )}
           {third && (
-            <div className="testi-box" data-aos="flip-up">
+            <div className="testi-box" data-aos="flip-down">
               <div className="testi-img">
                 <img src="./assets/person2.png" alt="" />
               </div>
@@ -140,7 +140,7 @@ export const Testimonials = () => {
             </div>
           )}
           {fourth && (
-            <div className="testi-box " data-aos="flip-up">
+            <div className="testi-box " data-aos="flip-down">
               <div className="testi-img">
                 <img src="./assets/person3.png" alt="" />
               </div>

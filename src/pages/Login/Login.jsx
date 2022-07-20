@@ -1,10 +1,14 @@
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useState,useRef } from "react";
+
 import "./Login.css";
 export const Login = () => {
   const [pass, setPass] = useState(true);
   const [passType, setPassType] = useState("password");
+  const [err,setErr] = useState(false)
+  
 
+  const email = useRef()
   const togglePass = () => {
     setPass(!pass);
     if (!pass) {
@@ -14,6 +18,21 @@ export const Login = () => {
       setPassType("text");
     }
   };
+
+  const emailRegEx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/  
+
+  const emailKeyUp = () => {
+    if(emailRegEx.test(email.current.value)){
+      setErr(false)
+    }else{
+      setErr(true)
+    }
+
+    if(email.current.value === ''){
+      setErr(false)
+    }
+  }
+
   return (
     <div className="login-container">
       <div className="container-back">
@@ -31,9 +50,10 @@ export const Login = () => {
 
             <div className="form-group">
               <label>Username or Email</label>
-              <input type="text"  />
-              <img src="./assets/username.svg" alt="" />
+              <input type="email" ref={email} onKeyUp={emailKeyUp}  />
+              <img src="./assets/username.svg" alt=""  />
             </div>
+            {err && <p className="error">please enter a valid email address</p>}
             <div className="form-group">
               <label>Password</label>
               <input type={passType} />
@@ -44,7 +64,7 @@ export const Login = () => {
               />
             </div>
 
-            <NavLink to="#">Forgot your password?</NavLink>
+            <NavLink to="#" className='forgot'>Forgot your password?</NavLink>
 
             <button type="submit">Log in</button>
 

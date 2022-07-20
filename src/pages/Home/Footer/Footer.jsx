@@ -1,5 +1,6 @@
-import React from "react";
+
 import "./footer.css";
+import { Fade } from "react-reveal";
 import david from "../../../assets/david.png";
 import jack from "../../../assets/jack.png";
 import jon from "../../../assets/jon.png";
@@ -7,9 +8,10 @@ import mark from "../../../assets/mark.png";
 import mary from "../../../assets/mary.png";
 import sarah from "../../../assets/sarah.png";
 
-function Footer() {
+const  Footer = ()=> {
   return (
     <div className="footer-container">
+      <div className="footer">
       <div className="left-page">
         <div className="footer-text">
           <div className="headline">
@@ -29,70 +31,69 @@ function Footer() {
         </div>
       </div>
       <div className="right-page">
-        <div className="div-wrapper">
+        <Fade delay={300}><div className="div-wrapper">
           <div className="card-main">
-            <img className="footer-img" src={david} alt="" />
+            <img className="footer-img" src={jack} alt="" />
           </div>
           <div className="description">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p> Hi my name is Gabriel , Head of <br /> English studies at lektore </p>
           </div>
         </div>
-
-        <div className="div-wrapper">
-          <div className="card-main">
-            <img src={jack} alt="" />
-          </div>
-          <div className="description">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
-              accusamus!
-            </p>
-          </div>
-        </div>
-        <div className="div-wrapper">
-          <div className="card-main">
-            <img src={jon} alt="" />
-          </div>
-          <div className="description">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum,
-              voluptate?
-            </p>
-          </div>
-        </div>
-        <div className="div-wrapper">
-          <div className="card-main">
-            <img src={mark} alt="" />
-          </div>
-          <div className="description">
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex,
-              enim.
-            </p>
-          </div>
-        </div>
-        <div className="div-wrapper">
-          <div className="card-main">
-            <img src={sarah} alt="" />
-          </div>
-          <div className="description">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Veritatis, totam.
-            </p>
-          </div>
-        </div>
-        <div className="div-wrapper">
+        </Fade>
+        <Fade delay={500}><div className="div-wrapper">
           <div className="card-main">
             <img src={mary} alt="" />
           </div>
           <div className="description">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
-              doloremque?
+              Hello my name is suzie, an English <br /> tutor at lektore, im dedicated to <br /> solving any issue to English Studies
             </p>
           </div>
         </div>
+        </Fade>
+        <Fade delay={700}><div className="div-wrapper">
+          <div className="card-main">
+            <img src={sarah} alt="" />
+          </div>
+          <div className="description">
+            <p>
+            Hello, my name is Vanessa and im the assistant Head of English <br /> studies at Lektore.
+            </p>
+          </div>
+        </div>
+        </Fade>
+        <Fade delay={900}><div className="div-wrapper">
+          <div className="card-main">
+            <img src={david} alt="" />
+          </div>
+          <div className="description">
+            <p>
+            Hello, my name is Michael, a tutor <br /> at lektore and i will help English <br /> dictions & Syntax    </p>
+          </div>
+        </div>
+        </Fade>
+        <Fade delay={1100}><div className="div-wrapper">
+          <div className="card-main">
+            <img src={mark} alt="" />
+          </div>
+          <div className="description">
+            <p>
+            Hello, my name is George and i <br /> will be helping you with the art of <br /> public speaking      </p>
+          </div>
+        </div>
+        </Fade>
+        <Fade delay={1300}><div className="div-wrapper">
+          <div className="card-main">
+            <img src={jon} alt="" />
+          </div>
+          <div className="description">
+            <p>
+              Hello my name is Augusto , im a <br /> tutor with lektore & i will help <br /> strenghten with your morphology <br /> & phonetics
+            </p>
+          </div>
+        </div>
+        </Fade>
+      </div>
       </div>
     </div>
   );

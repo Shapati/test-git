@@ -9,7 +9,7 @@ import TestimonialCard from "./TestimonialCard/TestimonialCard";
 const Home = () => {
   return (
     <div>
-      <ScrollToTop top={500} color="white" style={{display: 'flex', flexDirection: 'column' , justifyContent:'center', alignItems:'center' , borderRadius:'50%',width:"60px", height:'60px' , backgroundColor:'#4C8FDF'}  }/>
+      <ScrollToTop top={500} color="white" style={{display: 'flex', flexDirection: 'column' , justifyContent:'center', alignItems:'center' , borderRadius:'50%',width:"55px", height:'55px' , backgroundColor:'#4C8FDF'}  }/>
       <IntroSection />
       <Decorator />
       <Testimonials />

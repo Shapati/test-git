@@ -1,40 +1,51 @@
 .footer-container{
-    /* overflow-x: hidden; */
-    margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    /* background: red; */
-    background: rgba(234, 234, 234, .35);
-    background: rgba(255, 255, 255, .100);
-    background: rgba(217, 217, 217, .100);
+    background: linear-gradient(0deg, rgba(234, 234, 234, 0.35), rgba(234, 234, 234, 0.35)), linear-gradient(0deg, #FFFFFF, #FFFFFF), #D9D9D9;
+    padding: 100px 0px;
 }
 
-.left-page{
-  
-    display: flex;
-    flex-grow: 4;
-    margin-right: 0px;
-    margin-left: 30px;
-    width: 550px;
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0px auto;
 }
 
-.right-page{
-    margin-right: 150px;
-    padding-right: 50px;
+
+
+
+.div-wrapper{
+    width: 230px;
+    height: 265px;
+    box-shadow: 0px 4px 20px rgba(48, 47, 47, 0.1);
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.card-main img{
+    width: 230px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.footer-text{
-    width: 550px;
+.description p{
+    font-size: 11px;
+    position: absolute;
+    left: 10px;
+    font-weight: 500;
+    color: rgba(36, 35, 35, 0.7);
 }
-
 .footer-h1{
-    margin-bottom: 80px;
-    font-size: 30px;
+    margin-bottom: 50px;
+    font-size: 32px;
 }
 
 .footer-paragraph{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 50px;
+    line-height: 24px;
+    color: rgba(36, 35, 35, 0.74);
 }
 
 .footer-img{
@@ -44,31 +55,22 @@
 
 .footer-btn{
     background:  #4C8FDF;
+    font-family: 'Poppins' , sans-serif;
     border-style: none;
-    height: 50px;
-    width: 250px;
-    font-size: medium;
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
     color: #FFFFFF;
-    margin-top: 5px;
-    border-radius: 3px;
     cursor: pointer;
+    background: rgba(46, 125, 218, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    box-shadow: 0px 4px 20px rgba(118, 114, 114, 0.3);
+    border-radius: 2px;
 }
 
 .right-page{
-    /* background: yellow; */
-    /* display: flex;
-    flex-direction: row; */
-     --gap:6px;
-    --num-cols: 3;
-    --row-height:300px;
-
-    box-sizing: border-box;
-    padding: 2px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-   
-    gap: 2px;
+    grid-template-columns: repeat(3,auto);
 }
 
 /* .card-main{
@@ -90,10 +92,3 @@
     height: 100%;
 } */
 
-.div-wrapper{
-    padding: 3px;
-    background: #FFFFFF;
-    gap: 3px;
-    /* box-shadow: grey 5px 3px; */
-
-}

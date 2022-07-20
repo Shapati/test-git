@@ -1,3 +1,6 @@
+
+
+
 .testimonial-container {
   padding: 60px 0px 60px 0px;
 }
@@ -18,6 +21,7 @@
 }
 
 .testi-box {
+  
   width: 800px;
   height: 400px;
   background: linear-gradient(0deg, rgba(234, 234, 234, 0.6), rgba(234, 234, 234, 0.6)), rgba(234, 234, 234, 0.35);
@@ -38,8 +42,7 @@
   font-size: 14px;
   font-weight: 500;
   width: 650px;
-  color: rgba(36, 35, 35, 5);
-  ;
+  color: black;
   line-height: 24px;
 }
 
@@ -109,6 +112,9 @@
 }
 
 .testi-box-card1{
+ 
+  position: relative;
+  z-index: -4000;
   transform: translate(250px,-620px);
   width: 750px;
   height: 360px;
@@ -117,6 +123,8 @@ border: 1px solid rgba(150, 144, 144, 0.04);
 border-radius: 10px;
 }
 .testi-box-card2{
+  position: relative;
+  z-index: -5000;
   transform: translate(275px,-950px);
   width: 700px;
   height: 360px;
